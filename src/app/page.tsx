@@ -1,4 +1,6 @@
 import Image from "next/image";
+import SignIn from "./components/sign-in";
+import SignInGoogle from "./components/SignInGoogle";
 
 export default function Home() {
   return (
@@ -25,6 +27,8 @@ export default function Home() {
               priority
             />
           </a>
+          <SignIn/>
+          <SignInGoogle/>
         </div>
       </div>
 
